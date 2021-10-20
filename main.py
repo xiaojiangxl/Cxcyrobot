@@ -32,7 +32,7 @@ def sylulog(i):
         f.write("\n"+str(i))
 def server(text, msg):
     # 将 xxxx 换成自己的server SCKEY
-    uri = 'https://sc.ftqq.com/SCU168100Td7de382d19dbcd50e468feb1e988ae96606abed13f2cd.send?text={}&desp={}'.format(text, msg)
+    uri = 'https://sc.ftqq.com/SCU168100Td7d.send?text={}&desp={}'.format(text, msg)
     send = requests.get(uri)
 
 if __name__ == "__main__":
